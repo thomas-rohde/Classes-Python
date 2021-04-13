@@ -1,0 +1,5 @@
+#print('\033[7;30;41mOlá, Mundo!\033[m')
+#nome = str(input('Qual é o seu nome? '))
+#print('Que nome bonito \033[0;35;43m{}\033[m'.format(nome))
+nome = str(input('Qual é o seu nome?'))
+print('Que nome bonito {}{}{}'.format('\033[4;32;41m', nome, '\033[m'))
